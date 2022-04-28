@@ -616,3 +616,12 @@ C:\Users\lmaar\OneDrive\Desktop\inventory_management\inventory_management\invent
 C:\Users\lmaar\OneDrive\Desktop\inventory_management\inventory_management\inventory_management.Android\obj\Debug\120\stamp\_GenerateJavaStubs.stamp
 C:\Users\lmaar\OneDrive\Desktop\inventory_management\inventory_management\inventory_management.Android\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\lmaar\OneDrive\Desktop\inventory_management\inventory_management\inventory_management.Android\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\lmaar\OneDrive\Desktop\inventory_management\inventory_management\inventory_management.Android\obj\Debug\120\lp\55\jl\files.cache
+C:\Users\lmaar\OneDrive\Desktop\inventory_management\inventory_management\inventory_management.Android\obj\Debug\120\lp\63\jl\files.cache
+C:\Users\lmaar\OneDrive\Desktop\inventory_management\inventory_management\inventory_management.Android\obj\Debug\120\lp\69\jl\files.cache
+C:\Users\lmaar\OneDrive\Desktop\inventory_management\inventory_management\inventory_management.Android\obj\Debug\120\lp\75\jl\files.cache
+C:\Users\lmaar\OneDrive\Desktop\inventory_management\inventory_management\inventory_management.Android\obj\Debug\120\lp\79\jl\files.cache
+C:\Users\lmaar\OneDrive\Desktop\inventory_management\inventory_management\inventory_management.Android\obj\Debug\120\lp\85\jl\files.cache
+C:\Users\lmaar\OneDrive\Desktop\inventory_management\inventory_management\inventory_management.Android\obj\Debug\120\lp\93\jl\files.cache
+C:\Users\lmaar\OneDrive\Desktop\inventory_management\inventory_management\inventory_management.Android\obj\Debug\120\lp\99\jl\files.cache
+C:\Users\lmaar\OneDrive\Desktop\inventory_management\inventory_management\inventory_management.Android\obj\Debug\120\lp\104\jl\files.cache
