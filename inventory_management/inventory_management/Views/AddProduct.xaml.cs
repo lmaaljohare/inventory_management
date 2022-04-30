@@ -11,15 +11,14 @@ using Xamarin.Forms.Xaml;
 namespace inventory_management.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ShowProduct : ContentPage
+    public partial class AddProduct : ContentPage
     {
-        public ShowProduct()
+        public AddProduct()
         {
+
             InitializeComponent();
-        }
-        protected override void OnAppearing()
-        {
-            this.BindingContext = new ShowProductViewModel();
+            BindingContext = new AddProducViewModel();
+
         }
     }
 }
