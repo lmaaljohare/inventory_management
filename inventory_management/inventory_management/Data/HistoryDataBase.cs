@@ -26,6 +26,7 @@ namespace Inventory_management.Data
         public void AddQuantity(History history)
         {
 
+
             _ = _sqlconnection.Insert(history);
 
         }

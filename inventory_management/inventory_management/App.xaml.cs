@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using inventory_management.Views;
+using Xamarin.Forms;
 
 namespace inventory_management
 {
@@ -8,6 +9,7 @@ namespace inventory_management
         public App()
         {
             InitializeComponent();
+
 
             MainPage = new AppShell();
         }

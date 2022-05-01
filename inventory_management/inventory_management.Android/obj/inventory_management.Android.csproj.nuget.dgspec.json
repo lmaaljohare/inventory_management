@@ -1,46 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lmaar\\OneDrive\\Desktop\\inventory_management\\inventory_management\\inventory_management.Android\\inventory_management.Android.csproj": {}
+    "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management.Android\\inventory_management.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lmaar\\OneDrive\\Desktop\\inventory_management\\inventory_management\\inventory_management.Android\\inventory_management.Android.csproj": {
+    "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management.Android\\inventory_management.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lmaar\\OneDrive\\Desktop\\inventory_management\\inventory_management\\inventory_management.Android\\inventory_management.Android.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management.Android\\inventory_management.Android.csproj",
         "projectName": "inventory_management.Android",
-        "projectPath": "C:\\Users\\lmaar\\OneDrive\\Desktop\\inventory_management\\inventory_management\\inventory_management.Android\\inventory_management.Android.csproj",
-        "packagesPath": "C:\\Users\\lmaar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lmaar\\OneDrive\\Desktop\\inventory_management\\inventory_management\\inventory_management.Android\\obj\\",
+        "projectPath": "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management.Android\\inventory_management.Android.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lmaar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "monoandroid12.0"
+          "monoandroid11.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "monoandroid12.0": {
+          "monoandroid11.0": {
             "projectReferences": {
-              "C:\\Users\\lmaar\\OneDrive\\Desktop\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj": {
-                "projectPath": "C:\\Users\\lmaar\\OneDrive\\Desktop\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj"
+              "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj"
               }
             }
           }
         }
       },
       "frameworks": {
-        "monoandroid12.0": {
+        "monoandroid11.0": {
           "dependencies": {
             "SQLiteNetExtensions": {
               "target": "Package",
@@ -50,13 +46,21 @@
               "target": "Package",
               "version": "[2.1.0, )"
             },
-            "SQLitePCLRaw.core": {
-              "target": "Package",
-              "version": "[2.0.7, )"
-            },
             "System.Data.SQLite.Core": {
               "target": "Package",
               "version": "[1.0.115.5, )"
+            },
+            "Xamarin.Android.Support.v4": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Android.Support.v7.CardView": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -64,7 +68,15 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2196, )"
+              "version": "[5.0.0.2401, )"
+            },
+            "ZXing.Net": {
+              "target": "Package",
+              "version": "[0.16.8, )"
+            },
+            "ZXing.Net.Mobile": {
+              "target": "Package",
+              "version": "[2.4.1, )"
             },
             "sqlite-net": {
               "target": "Package",
@@ -78,21 +90,17 @@
         }
       }
     },
-    "C:\\Users\\lmaar\\OneDrive\\Desktop\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj": {
+    "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lmaar\\OneDrive\\Desktop\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj",
         "projectName": "inventory_management",
-        "projectPath": "C:\\Users\\lmaar\\OneDrive\\Desktop\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj",
-        "packagesPath": "C:\\Users\\lmaar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lmaar\\OneDrive\\Desktop\\inventory_management\\inventory_management\\inventory_management\\obj\\",
+        "projectPath": "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lmaar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -130,11 +138,19 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.7.2, )"
+              "version": "[1.7.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2401, )"
+            },
+            "ZXing.Net": {
+              "target": "Package",
+              "version": "[0.16.8, )"
+            },
+            "ZXing.Net.Mobile": {
+              "target": "Package",
+              "version": "[2.4.1, )"
             },
             "sqlite-net": {
               "target": "Package",
@@ -155,7 +171,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }
