@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inventory_management.Androi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inventory_management.iOS", "inventory_management\inventory_management.iOS\inventory_management.iOS.csproj", "{A30208DC-5B56-4C5F-9B16-3BAD00EDF190}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inventory_management", "inventory_management\inventory_management\inventory_management.csproj", "{811BB8B8-87F0-46AB-B476-0D4FB3C3E4B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "inventory_management", "inventory_management\inventory_management\inventory_management.csproj", "{811BB8B8-87F0-46AB-B476-0D4FB3C3E4B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

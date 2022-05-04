@@ -17,7 +17,7 @@
                 <Button Text="New Product" Grid.Row="0" Grid.Column="1" FontAttributes="Bold" BorderRadius="0" HeightRequest="40" BorderColor="Black" BackgroundColor="Transparent" BorderWidth="1"  TextColor="Black"  Command="{Binding AddCommand}" />
             </Grid>
             <ListView x:Name="ContactListView" HasUnevenRows="true" Grid.Row="1" SeparatorColor="Black" ItemsSource="{Binding ProductList}"  
-         SelectedItem="{Binding SelectedContactItem, Mode=TwoWay}">
+         SelectedItem="{Binding SelectedProductItem, Mode=TwoWay}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
@@ -32,6 +32,7 @@
                                 </Grid.ColumnDefinitions>
                                 <Label Text="{Binding Name}" Grid.Row="0" Font="20" TextColor="Black" />
                                 <Label Text="{Binding BarCode}" Grid.Row="0" Font="20" Grid.Column="1" HorizontalOptions="EndAndExpand" HorizontalTextAlignment="End" TextColor="Black" />
+                                <Label Text="{Binding TotalQuantity}" Grid.Row="0" Font="20" TextColor="Black"  HorizontalOptions="EndAndExpand"/>
 
                             </Grid>
                         </ViewCell>

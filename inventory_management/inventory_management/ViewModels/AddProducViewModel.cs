@@ -4,6 +4,7 @@ using Xamarin.Forms;
 using System.Threading.Tasks;
 using Inventory_management.Models;
 using inventory_management.Services;
+
 using inventory_management.Views;
 
 namespace inventory_management.ViewModels
@@ -13,7 +14,7 @@ namespace inventory_management.ViewModels
         public ICommand AddProductCommand { get; private set; }
         public ICommand ViewAllProductCommand { get; private set; }
 
-        public string BarCodeReaded { get; private set; }
+
 
 
         public ICommand ScanBarcode { get; private set; }
@@ -21,9 +22,8 @@ namespace inventory_management.ViewModels
         public AddProducViewModel()
         {
 
-            BarCodeReaded = "";
             ScanBarcode = new Command(async () => await ExecuteScanBarcode());
-          
+
             _product = new Product();
             _productRepository = new ProductRepository();
             AddProductCommand = new Command(async () => await AddProduct());
@@ -41,8 +41,8 @@ namespace inventory_management.ViewModels
         }
 
         public bool IsViewAll => _productRepository.GetAllProduct().Count > 0 ? true : false;
- 
-            private async Task ExecuteScanBarcode()
+
+        private async Task ExecuteScanBarcode()
         {
 #if         __ANDROID__
 	            Initialize the scanner first so it can track the current context
@@ -56,7 +56,7 @@ namespace inventory_management.ViewModels
 
             if (result != null)
                 //Console.WriteLine("Scanned Barcode: " + result.Text);
-                BarCodeReaded = result.Text;
+                BarCode = result.Text;
         }
     }
 }

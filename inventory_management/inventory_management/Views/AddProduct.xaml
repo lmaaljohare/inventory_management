@@ -8,14 +8,14 @@
         <StackLayout>
 
             <BoxView HeightRequest="10"/>
-     
+
             <Frame BackgroundColor="#BF043055" HasShadow="False">
                 <StackLayout Orientation="Vertical" Spacing="10">
                     <Label Text="productName"/>
                     <Entry x:Name="Name" Text="{Binding Name}"   
                            PlaceholderColor="White" HeightRequest="40"   
                            TextColor="White"/>
-                   
+
                     <Button Text="Open Camera to Scan" HorizontalOptions="Center" Command="{Binding ScanBarcode}"/>
                     <Label Text="Barcode:" HorizontalOptions="Start" FontSize="Large" VerticalOptions="Center"/>
                     <Label Text="{Binding BarCode}" TextColor="OrangeRed" FontSize="Large" VerticalOptions="Center"/>

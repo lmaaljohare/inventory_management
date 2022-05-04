@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lmaar\\OneDrive\\Desktop\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj": {}
+    "C:\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lmaar\\OneDrive\\Desktop\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj": {
+    "C:\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lmaar\\OneDrive\\Desktop\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj",
+        "projectUniqueName": "C:\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj",
         "projectName": "inventory_management",
-        "projectPath": "C:\\Users\\lmaar\\OneDrive\\Desktop\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj",
+        "projectPath": "C:\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj",
         "packagesPath": "C:\\Users\\lmaar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lmaar\\OneDrive\\Desktop\\inventory_management\\inventory_management\\inventory_management\\obj\\",
+        "outputPath": "C:\\inventory_management\\inventory_management\\inventory_management\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -61,6 +61,14 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2401, )"
+            },
+            "ZXing.Net": {
+              "target": "Package",
+              "version": "[0.16.8, )"
+            },
+            "ZXing.Net.Mobile": {
+              "target": "Package",
+              "version": "[2.4.1, )"
             },
             "sqlite-net": {
               "target": "Package",

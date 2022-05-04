@@ -10,11 +10,11 @@ namespace Inventory_management.Models
     {
         [PrimaryKey, AutoIncrement]
         public int IdProduct { get; set; }
-        [AutoIncrement]
+        //[PrimaryKey, AutoIncrement]
         public int Code { get; set; }
         public string BarCode { get; set; }
         public string Name { get; set; }
-        public int TotalQuantity { get; set; }
+        public double TotalQuantity { get; set; }
         public DateTime Date { get; set; }
 
 

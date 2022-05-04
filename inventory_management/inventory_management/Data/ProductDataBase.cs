@@ -21,9 +21,13 @@ namespace Inventory_management.Data
         }
 
 
-        public IList<Product> GetProduct()
+        public IList<Product> GetAllProduct()
             => _sqlconnection.Table<Product>().ToList();
 
+        public Product GetProductData(int id)
+        {
+            return _sqlconnection.Table<Product>().FirstOrDefault(t => t.IdProduct == id);
+        }
 
         public void AddProduct(Product Product)
         {
@@ -34,15 +38,10 @@ namespace Inventory_management.Data
 
         public void UpdateProduct(Product Product)
         {
-            if (Product.IdProduct != 0)
-            {
 
-                _sqlconnection.Update(Product);
-            }
-            else
-            {
-                _sqlconnection.Insert(Product);
-            }
+
+            _sqlconnection.Update(Product);
+
         }
         public void DeleteProduct(int id)
         {

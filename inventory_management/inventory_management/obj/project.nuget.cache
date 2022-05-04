@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3hccNkQR9iC06PJ/7040Bs1JkGGB+uIDQDXB0UrM8tirI5K95j1t/6vUBiFskpeD1mxaNqW5wDMhSOGrzwmi1Q==",
+  "dgSpecHash": "ymgytx/OKREl2YeLDsRDJgZEQV28hUB8eL5GD3Lph5iee3Cs6SHF/gyloebP0Gt7j1YeYAe1MfMKdZDa9FFARw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lmaar\\OneDrive\\Desktop\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj",
+  "projectFilePath": "C:\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lmaar\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\lmaar\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
@@ -53,7 +53,9 @@
     "C:\\Users\\lmaar\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
     "C:\\Users\\lmaar\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
     "C:\\Users\\lmaar\\.nuget\\packages\\xamarin.essentials\\1.7.2\\xamarin.essentials.1.7.2.nupkg.sha512",
-    "C:\\Users\\lmaar\\.nuget\\packages\\xamarin.forms\\5.0.0.2401\\xamarin.forms.5.0.0.2401.nupkg.sha512"
+    "C:\\Users\\lmaar\\.nuget\\packages\\xamarin.forms\\5.0.0.2401\\xamarin.forms.5.0.0.2401.nupkg.sha512",
+    "C:\\Users\\lmaar\\.nuget\\packages\\zxing.net\\0.16.8\\zxing.net.0.16.8.nupkg.sha512",
+    "C:\\Users\\lmaar\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512"
   ],
   "logs": []
 }

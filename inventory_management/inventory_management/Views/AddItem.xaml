@@ -4,9 +4,25 @@
              x:Class="inventory_management.Views.AddItem">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+
+            <BoxView HeightRequest="10"/>
+
+            <Frame BackgroundColor="#BF043055" HasShadow="False">
+                <StackLayout Orientation="Vertical" Spacing="10">
+
+                    <Label Text="Quantity:" HorizontalOptions="Start" FontSize="Large" VerticalOptions="Center"/>
+                    <Label Text="Quantity" Margin="2"/>
+                    <Entry Text="{Binding Quantity}" Margin="2,2,2,5" 
+                   HorizontalOptions="FillAndExpand" Keyboard="Numeric"/>
+                    <DatePicker x:Name="txtDOB" Date="{Binding Date}" BackgroundColor="White" HeightRequest="40" HorizontalOptions="FillAndExpand"/>
+                    <Button x:Name="SubmitButton" Command="{Binding AddItemsCommand}" BorderRadius="0" Text="Save Product" FontAttributes="Bold" TextColor="White" BackgroundColor="#5989B5"/>
+                    <Label Text="View All Product" IsVisible="{Binding IsViewAll}" x:Name="ViewLbl" TextColor="Black" HorizontalOptions="EndAndExpand" FontSize="15">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding ViewAllProductCommand}" NumberOfTapsRequired="1" />
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
+            </Frame>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
