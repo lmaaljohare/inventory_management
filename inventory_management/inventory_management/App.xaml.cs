@@ -1,4 +1,4 @@
-﻿using inventory_management.Views;
+using inventory_management.Views;
 using Xamarin.Forms;
 
 namespace inventory_management
@@ -11,7 +11,8 @@ namespace inventory_management
             InitializeComponent();
 
 
-            MainPage = new AppShell();
+            MainPage = new NavigationPage(new ShowProduct());
+
         }
 
         protected override void OnStart()
