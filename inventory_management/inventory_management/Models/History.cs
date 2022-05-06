@@ -16,11 +16,9 @@ namespace Inventory_management.Models
         [ForeignKey(typeof(Product))]
         public int IdProduct { get; set; }
         [ForeignKey(typeof(Product))]
-        public string Name { get; set; }
-        public int Quantity { get; set; }
-        public DateTime Date { get; set; }
+        public double Quantity { get; set; }
+        public DateTime UpdatedAt { get; set; }
         public int OperationType { get; set; }
-
         [ManyToMany(typeof(ProductHistory))]
         public List<Product> Product { get; set; }
 

@@ -12,8 +12,10 @@ namespace inventory_management.Droid
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
-      
+            TabLayoutResource = Resource.Layout.Tabbar;
+            ToolbarResource = Resource.Layout.Toolbar;
             base.OnCreate(savedInstanceState);
+
 
             ZXing.Mobile.MobileBarcodeScanner.Initialize(Application);
 

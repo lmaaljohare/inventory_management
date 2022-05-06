@@ -1,9 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "rEXh702HwonUiRABVlt1d4lNkJHSlVBVSa9yit49nu1zqtEyY5q/yzLFnKfYuh6SCPayPbBuzzoDe4074RG0RQ==",
+  "dgSpecHash": "lQuvSS8c6lvNrq6wcN4lEGONTBhRrWp43L/RlVOP6lNR72GWbX2jKe56bCvrNF6Y4Zoo184QpT0GATx8R5vMUA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management.iOS\\inventory_management.iOS.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\project2\\inventory_management\\inventory_management.iOS\\inventory_management.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\sqlite-net\\1.6.292\\sqlite-net.1.6.292.nupkg.sha512",
@@ -12,6 +11,11 @@
     "C:\\Users\\ASUS\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.4\\sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\syncfusion.licensing\\20.1.0.52\\syncfusion.licensing.20.1.0.52.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\syncfusion.xamarin.core\\20.1.0.52\\syncfusion.xamarin.core.20.1.0.52.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\syncfusion.xamarin.datasource\\20.1.0.52\\syncfusion.xamarin.datasource.20.1.0.52.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\syncfusion.xamarin.gridcommon\\20.1.0.52\\syncfusion.xamarin.gridcommon.20.1.0.52.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\syncfusion.xamarin.sflistview\\20.1.0.52\\syncfusion.xamarin.sflistview.20.1.0.52.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
@@ -36,29 +40,4 @@
       ]
     }
   ]
-=======
-  "dgSpecHash": "On40BTnZRVj6LZ3+GKvuLa6rcwQlZYtSC2eT0fMm3Vm9IbmF6qqbN+yey+FF5e4/wHrvavpkLImayKqtyTUMAA==",
-  "success": true,
-  "projectFilePath": "C:\\inventory_management\\inventory_management\\inventory_management.iOS\\inventory_management.iOS.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\lmaar\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\lmaar\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
-    "C:\\Users\\lmaar\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
-    "C:\\Users\\lmaar\\.nuget\\packages\\sqlite-net\\1.6.292\\sqlite-net.1.6.292.nupkg.sha512",
-    "C:\\Users\\lmaar\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
-    "C:\\Users\\lmaar\\.nuget\\packages\\sqlitenetextensions\\2.1.0\\sqlitenetextensions.2.1.0.nupkg.sha512",
-    "C:\\Users\\lmaar\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
-    "C:\\Users\\lmaar\\.nuget\\packages\\sqlitepclraw.core\\2.0.7\\sqlitepclraw.core.2.0.7.nupkg.sha512",
-    "C:\\Users\\lmaar\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.4\\sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
-    "C:\\Users\\lmaar\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
-    "C:\\Users\\lmaar\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
-    "C:\\Users\\lmaar\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\lmaar\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
-    "C:\\Users\\lmaar\\.nuget\\packages\\xamarin.essentials\\1.7.2\\xamarin.essentials.1.7.2.nupkg.sha512",
-    "C:\\Users\\lmaar\\.nuget\\packages\\xamarin.forms\\5.0.0.2401\\xamarin.forms.5.0.0.2401.nupkg.sha512",
-    "C:\\Users\\lmaar\\.nuget\\packages\\zxing.net\\0.16.8\\zxing.net.0.16.8.nupkg.sha512",
-    "C:\\Users\\lmaar\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512"
-  ],
-  "logs": []
->>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad
 }

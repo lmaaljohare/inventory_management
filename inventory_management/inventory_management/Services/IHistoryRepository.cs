@@ -11,7 +11,8 @@ namespace inventory_management.Services
 
         History GetHistoryData(int id);
 
-        void AddQuantity(History history);
+        void AddQuantity(double qty, int id);
+        List<History> SumQuantity();
 
     }
 }

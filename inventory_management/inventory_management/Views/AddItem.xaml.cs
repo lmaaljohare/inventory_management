@@ -1,4 +1,5 @@
-﻿using System;
+﻿using inventory_management.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,9 +13,10 @@ namespace inventory_management.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AddItem : ContentPage
     {
-        public AddItem()
+        public AddItem(int selectedId)
         {
             InitializeComponent();
+            this.BindingContext = new AddItemViewModel(selectedId);
         }
     }
 }

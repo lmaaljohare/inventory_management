@@ -3,6 +3,7 @@ using Inventory_management.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 
@@ -15,17 +16,9 @@ namespace inventory_management.ViewModels
         public Product _product;
         public IProductRepository _productRepository;
 
-        public string HistoryName
-        {
-            get => _history.Name;
-            set
-            {
-                _history.Name = value;
-                NotifyPropertyChanged("Name");
-            }
-        }
 
-        public int Quantity
+
+        public double Quantity
         {
             get => _history.Quantity;
             set
@@ -37,13 +30,13 @@ namespace inventory_management.ViewModels
 
 
 
-        public DateTime Date
+        public DateTime UpdatedAt
         {
-            get => _history.Date;
+            get => _history.UpdatedAt;
             set
             {
-                _history.Date = DateTime.Today;
-                NotifyPropertyChanged("Date");
+                _history.UpdatedAt = DateTime.Now;
+                NotifyPropertyChanged("UpdatedAt");
             }
         }
 
@@ -60,6 +53,7 @@ namespace inventory_management.ViewModels
                 NotifyPropertyChanged("HistorytList");
             }
         }
+
         #region INotifyPropertyChanged      
         public event PropertyChangedEventHandler PropertyChanged;
         protected void NotifyPropertyChanged([CallerMemberName] string propertyName = "")
@@ -67,5 +61,5 @@ namespace inventory_management.ViewModels
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
         #endregion
-    } 
+    }
 }

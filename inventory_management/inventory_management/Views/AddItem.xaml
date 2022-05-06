@@ -14,15 +14,17 @@
                     <Label Text="Quantity" Margin="2"/>
                     <Entry Text="{Binding Quantity}" Margin="2,2,2,5" 
                    HorizontalOptions="FillAndExpand" Keyboard="Numeric"/>
-                    <DatePicker x:Name="txtDOB" Date="{Binding Date}" BackgroundColor="White" HeightRequest="40" HorizontalOptions="FillAndExpand"/>
+                    <DatePicker x:Name="txtDOB" Date="{Binding UpdatedAt}" BackgroundColor="White" HeightRequest="40" HorizontalOptions="FillAndExpand"/>
                     <Button x:Name="SubmitButton" Command="{Binding AddItemsCommand}" BorderRadius="0" Text="Save Product" FontAttributes="Bold" TextColor="White" BackgroundColor="#5989B5"/>
                     <Label Text="View All Product" IsVisible="{Binding IsViewAll}" x:Name="ViewLbl" TextColor="Black" HorizontalOptions="EndAndExpand" FontSize="15">
                         <Label.GestureRecognizers>
-                            <TapGestureRecognizer Command="{Binding ViewAllProductCommand}" NumberOfTapsRequired="1" />
+                            <TapGestureRecognizer Command="{Binding ViewAllitemCommand}" NumberOfTapsRequired="1" />
                         </Label.GestureRecognizers>
                     </Label>
                 </StackLayout>
             </Frame>
+
         </StackLayout>
+
     </ContentPage.Content>
 </ContentPage>

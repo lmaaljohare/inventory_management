@@ -28,6 +28,7 @@ namespace inventory_management.ViewModels
             _productRepository = new ProductRepository();
             AddProductCommand = new Command(async () => await AddProduct());
             ViewAllProductCommand = new Command(async () => await ShowProductList());
+            //  TotalQuantity= _addItemViewModel.QTySum();
         }
         async Task AddProduct()
         {
@@ -58,5 +59,7 @@ namespace inventory_management.ViewModels
                 //Console.WriteLine("Scanned Barcode: " + result.Text);
                 BarCode = result.Text;
         }
+
+
     }
 }

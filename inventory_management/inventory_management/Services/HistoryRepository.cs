@@ -23,16 +23,21 @@ namespace inventory_management.Services
 
         }
 
-       public History GetHistoryData(int id)
+        public History GetHistoryData(int id)
         {
             return _historyDataBase.GetHistoryData(id);
         }
 
-        public void AddQuantity(History history)
+        public void AddQuantity(double qty, int id)
         {
-            _historyDataBase.AddQuantity(history);
+            _historyDataBase.AddQuantity(qty, id);
         }
+        public List<History> SumQuantity()
+        {
 
+
+            return (List<History>)_historyDataBase.SumQuantity();
+        }
 
 
     }

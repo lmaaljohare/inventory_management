@@ -3,6 +3,7 @@ using Inventory_management.Models;
 using SQLite;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using Xamarin.Forms;
 
@@ -23,16 +24,19 @@ namespace Inventory_management.Data
             => _sqlconnection.Table<History>().ToList();
 
 
-        public void AddQuantity(History history)
+        public void AddQuantity(double qty, int id)
         {
 
-<<<<<<< HEAD
-
-            _ = _sqlconnection.Insert(history);
-=======
-            _sqlconnection.Insert(history);
->>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad
-
+            _sqlconnection.Insert(new History()
+            {
+                IdProduct = id,
+                Quantity = qty,
+                UpdatedAt = DateTime.Now,
+            });
+        }
+        public List<History> SumQuantity()
+        {
+            return _sqlconnection.Query<History>(" SELECT SUM(Quantity) as sum_quantity FROM [History] GROUP BY IdProduct").ToList();
         }
 
 

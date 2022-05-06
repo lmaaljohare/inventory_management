@@ -38,17 +38,10 @@ namespace Inventory_management.Data
 
         public void UpdateProduct(Product Product)
         {
-<<<<<<< HEAD
-          
-
-                _sqlconnection.Update(Product);
-           
-=======
 
 
             _sqlconnection.Update(Product);
 
->>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad
         }
         public void DeleteProduct(int id)
         {

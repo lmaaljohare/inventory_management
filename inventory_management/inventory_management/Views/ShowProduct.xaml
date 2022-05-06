@@ -1,12 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             x:Class="inventory_management.Views.ShowProduct"
-             xmlns:sync="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms" 
-             xmlns:local="clr-namespace:inventory_management.Services">
-    <ContentPage.Behaviors>
-        <local:Behavior/>
-    </ContentPage.Behaviors>
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="inventory_management.Views.ShowProduct">
     <ContentPage.Content>
         <Grid Padding="10,20,10,40">
             <Grid.RowDefinitions>
@@ -14,32 +9,37 @@
                 <RowDefinition Height="*" />
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
-            <Grid Grid.Row="3">
+            <Grid Grid.Row="0">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
                 <Button Text="New Product" Grid.Row="0" Grid.Column="1" FontAttributes="Bold" BorderRadius="0" HeightRequest="40" BorderColor="Black" BackgroundColor="Transparent" BorderWidth="1"  TextColor="Black"  Command="{Binding AddCommand}" />
             </Grid>
-                <SearchBar x:Name="filterText" Placeholder="Search here to filter" />
-                <sync:SfListView x:Name="listView" ItemsSource="{Binding ProductList}" Grid.Row="1" ItemSpacing="0,5,0,5" BackgroundColor="#F0F0F0" ItemSize="100" SelectedItem="{Binding SelectedProductItem, Mode=TwoWay}">
-                    <sync:SfListView.ItemTemplate>
-                        <DataTemplate x:Name="ItemTemplate" >
-                            <Frame OutlineColor="#b3b3b3" Padding="2" Margin="10,0,10,0">
-                                <Grid BackgroundColor="White" Padding="10">
-                                    <Grid.RowDefinitions>
-                                        <RowDefinition Height="Auto"/>
-                                        <RowDefinition Height="*"/>
-                                        <RowDefinition Height="Auto"/>
-                                    </Grid.RowDefinitions>
-                                    <Label x:Name="TitleLabel" LineBreakMode="NoWrap" Text="{Binding Name}" FontAttributes="Bold" TextColor="Black"/>
-                                    <Label Grid.Row="1" x:Name="DescriptionLabel" Text="{Binding BarCode}" TextColor="Teal"/>
-                                   <Label Grid.Row="2"  x:Name="Description2Label" Text="{Binding Price}" TextColor="Teal"/>
+            <ListView x:Name="ContactListView" HasUnevenRows="true" Grid.Row="1" SeparatorColor="Black" ItemsSource="{Binding ProductList}"  
+         SelectedItem="{Binding SelectedProductItem, Mode=TwoWay}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid  Padding="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Label Text="{Binding Name}" Grid.Row="0" Font="20" TextColor="Black" />
+                                <Label Text="{Binding BarCode}" Grid.Row="1" Font="20" Grid.Column="1" HorizontalOptions="EndAndExpand" HorizontalTextAlignment="End" TextColor="Black" />
+                                <Label Grid.Row="2"  x:Name="Description2Label" Text="{Binding Price}" TextColor="Teal"/>
                             </Grid>
-                            </Frame>
-                        </DataTemplate>
-                    </sync:SfListView.ItemTemplate>
-                </sync:SfListView>
-            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
+

@@ -15,7 +15,8 @@ namespace inventory_management.ViewModels
 
         public Product _product;
         public IProductRepository _productRepository;
-        public AddItemViewModel AddItemViewModel = new AddItemViewModel();
+        public AddItemViewModel _addItemViewModel;
+        // public AddItemViewModel AddItemViewModel=new AddItemViewModel(_product.IdProduct);
 
         public string Name
         {
@@ -39,23 +40,23 @@ namespace inventory_management.ViewModels
 
 
 
-        public DateTime Date
+        public DateTime CreatedAt
         {
-            get => _product.Date;
+            get => _product.CreatedAt;
             set
             {
-                _product.Date = DateTime.Today;
-                NotifyPropertyChanged("Date");
+                _product.CreatedAt = DateTime.Now;
+                NotifyPropertyChanged("CreatedAt");
             }
         }
-        public double TotalQuantity
+        public double Price
         {
-            get => _product.TotalQuantity;
+            get => _product.Price;
             set
             {
-                _product.TotalQuantity = AddItemViewModel.QTySum();
-                //  _product.TotalQuantity =_history.Quantity;
-                NotifyPropertyChanged("TotalQuantity");
+
+                _product.Price = value;
+                NotifyPropertyChanged("Price");
             }
         }
 
@@ -70,6 +71,10 @@ namespace inventory_management.ViewModels
                 NotifyPropertyChanged("ProductList");
             }
         }
+
+
+
+
         //   public decimal TotalQuantity => _history.Quantity;
 
         #region INotifyPropertyChanged      

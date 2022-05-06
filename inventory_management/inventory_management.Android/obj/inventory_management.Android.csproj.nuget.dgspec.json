@@ -1,31 +1,17 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management.Android\\inventory_management.Android.csproj": {}
+    "C:\\Users\\ASUS\\Desktop\\project2\\inventory_management\\inventory_management.Android\\inventory_management.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management.Android\\inventory_management.Android.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\project2\\inventory_management\\inventory_management.Android\\inventory_management.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management.Android\\inventory_management.Android.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\project2\\inventory_management\\inventory_management.Android\\inventory_management.Android.csproj",
         "projectName": "inventory_management.Android",
-        "projectPath": "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management.Android\\inventory_management.Android.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\project2\\inventory_management\\inventory_management.Android\\inventory_management.Android.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management.Android\\obj\\",
-=======
-    "C:\\inventory_management\\inventory_management\\inventory_management.Android\\inventory_management.Android.csproj": {}
-  },
-  "projects": {
-    "C:\\inventory_management\\inventory_management\\inventory_management.Android\\inventory_management.Android.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\inventory_management\\inventory_management\\inventory_management.Android\\inventory_management.Android.csproj",
-        "projectName": "inventory_management.Android",
-        "projectPath": "C:\\inventory_management\\inventory_management\\inventory_management.Android\\inventory_management.Android.csproj",
-        "packagesPath": "C:\\Users\\lmaar\\.nuget\\packages\\",
-        "outputPath": "C:\\inventory_management\\inventory_management\\inventory_management.Android\\obj\\",
->>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\project2\\inventory_management\\inventory_management.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -42,13 +28,8 @@
         "frameworks": {
           "monoandroid11.0": {
             "projectReferences": {
-<<<<<<< HEAD
-              "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj"
-=======
-              "C:\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj": {
-                "projectPath": "C:\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj"
->>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad
+              "C:\\Users\\ASUS\\Desktop\\project2\\inventory_management\\inventory_management\\inventory_management.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Desktop\\project2\\inventory_management\\inventory_management\\inventory_management.csproj"
               }
             }
           }
@@ -109,25 +90,14 @@
         }
       }
     },
-<<<<<<< HEAD
-    "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\project2\\inventory_management\\inventory_management\\inventory_management.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\project2\\inventory_management\\inventory_management\\inventory_management.csproj",
         "projectName": "inventory_management",
-        "projectPath": "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\project2\\inventory_management\\inventory_management\\inventory_management.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management\\obj\\",
-=======
-    "C:\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj",
-        "projectName": "inventory_management",
-        "projectPath": "C:\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj",
-        "packagesPath": "C:\\Users\\lmaar\\.nuget\\packages\\",
-        "outputPath": "C:\\inventory_management\\inventory_management\\inventory_management\\obj\\",
->>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\project2\\inventory_management\\inventory_management\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -165,6 +135,10 @@
             "SQLiteNetExtensions": {
               "target": "Package",
               "version": "[2.1.0, )"
+            },
+            "Syncfusion.Xamarin.SfListView": {
+              "target": "Package",
+              "version": "[20.1.0.52, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

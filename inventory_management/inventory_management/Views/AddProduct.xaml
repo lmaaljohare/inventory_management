@@ -19,7 +19,10 @@
                     <Button Text="Open Camera to Scan" HorizontalOptions="Center" Command="{Binding ScanBarcode}"/>
                     <Label Text="Barcode:" HorizontalOptions="Start" FontSize="Large" VerticalOptions="Center"/>
                     <Label Text="{Binding BarCode}" TextColor="OrangeRed" FontSize="Large" VerticalOptions="Center"/>
-                    <DatePicker x:Name="txtDOB" Date="{Binding Date}" BackgroundColor="White" HeightRequest="40" HorizontalOptions="FillAndExpand"/>
+                    <Label Text="Price:" HorizontalOptions="Start" FontSize="Large" VerticalOptions="Center"/>
+                    <Entry Text="{Binding Price}" Margin="2,2,2,5" 
+                               HorizontalOptions="FillAndExpand" Keyboard="Numeric"/>
+                    <DatePicker x:Name="txtDOB" Date="{Binding CreatedAt}" BackgroundColor="White" HeightRequest="40" HorizontalOptions="FillAndExpand"/>
                     <Button x:Name="SubmitButton" Command="{Binding AddProductCommand}" BorderRadius="0" Text="Save Product" FontAttributes="Bold" TextColor="White" BackgroundColor="#5989B5"/>
                     <Label Text="View All Product" IsVisible="{Binding IsViewAll}" x:Name="ViewLbl" TextColor="Black" HorizontalOptions="EndAndExpand" FontSize="15">
                         <Label.GestureRecognizers>

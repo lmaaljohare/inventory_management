@@ -1,6 +1,7 @@
 ﻿using inventory_management.Services;
 using inventory_management.Views;
 using Inventory_management.Models;
+using SQLitePCL;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -10,6 +11,7 @@ using Xamarin.Forms;
 
 namespace inventory_management.ViewModels
 {
+    [Preserve(AllMembers = true)]
     public class ShowProductViewModel : BaseViewModel
     {
 
@@ -23,6 +25,7 @@ namespace inventory_management.ViewModels
 
             AddCommand = new Command(async () => await ShowAddProduct());
             //  AddItemCommand= new Command(async () => await ShowAddItem());
+
 
             FetchProduct();
         }
@@ -38,11 +41,12 @@ namespace inventory_management.ViewModels
 
         }
 
-        async void ShowAddItem()
+        async void ShowAddItem(int selectedId)
         {
-            await App.Current.MainPage.Navigation.PushAsync(new AddItem());
+            await App.Current.MainPage.Navigation.PushAsync(new AddItem(selectedId));
 
         }
+
 
         //   async void ShowProductDetails(int selectedProductId)
         //   {
@@ -59,7 +63,7 @@ namespace inventory_management.ViewModels
                 {
                     _selectedProductItem = value;
                     NotifyPropertyChanged("SelectedProdutItem");
-                    ShowAddItem();
+                    ShowAddItem(value.IdProduct);
                 }
             }
         }
