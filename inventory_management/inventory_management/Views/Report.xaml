@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="inventory_management.Views.Report">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <TableView>
+                <TableRoot>
+                    <TableSection>
+                        <ViewCell>
+                            <StackLayout HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="300">
+                                <Label Text="Inner Report" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell Height="70">
+                            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                                <Label Text="Details" FontSize="Medium" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+                            </StackLayout>
+                        </ViewCell>
+                    </TableSection>
+                </TableRoot>
+
+            </TableView>
+            <Grid HorizontalOptions="Center" VerticalOptions="Center" RowSpacing="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="650"/>
+                </Grid.RowDefinitions>
+
+                <Label Grid.Row="0" Grid.Column="0" Text="#" HorizontalTextAlignment="Start" />
+                <Label Grid.Row="0" Grid.Column="1" Text="Product Name" />
+                <Label Grid.Row="0" Grid.Column="2" Text="Seq. Num" />
+                <Label Grid.Row="0" Grid.Column="3" Text="Date" />
+                <Label Grid.Row="0" Grid.Column="4" Text="Amount" />
+
+                <Label Grid.Row="1" Grid.Column="0" Text="test" />
+                <Label Grid.Row="1" Grid.Column="1" Text="test" />
+                <Label Grid.Row="1" Grid.Column="2" Text="test" />
+                <Label Grid.Row="1" Grid.Column="3" Text="test" />
+                <Label Grid.Row="1" Grid.Column="4" Text="test" />
+            </Grid>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
