@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "811bb8b8-87f0-46ab-b476-0d4fb3c3e4b8": {
+      "ProjectGuid": "811bb8b8-87f0-46ab-b476-0d4fb3c3e4b8",
+      "DisplayName": "inventory_management",
+      "ColorIndex": 0
+    },
+    "84388449-effe-476e-a0bd-83f10214e7b7": {
+      "ProjectGuid": "84388449-effe-476e-a0bd-83f10214e7b7",
+      "DisplayName": "inventory_management.Android",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "a30208dc-5b56-4c5f-9b16-3bad00edf190": {
+      "ProjectGuid": "a30208dc-5b56-4c5f-9b16-3bad00edf190",
+      "DisplayName": "inventory_management.iOS",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

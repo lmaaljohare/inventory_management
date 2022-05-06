@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "dgSpecHash": "lQuvSS8c6lvNrq6wcN4lEGONTBhRrWp43L/RlVOP6lNR72GWbX2jKe56bCvrNF6Y4Zoo184QpT0GATx8R5vMUA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\project2\\inventory_management\\inventory_management.iOS\\inventory_management.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\sqlite-net\\1.6.292\\sqlite-net.1.6.292.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\sqlitenetextensions\\2.1.0\\sqlitenetextensions.2.1.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.4\\sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\syncfusion.licensing\\20.1.0.52\\syncfusion.licensing.20.1.0.52.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\syncfusion.xamarin.core\\20.1.0.52\\syncfusion.xamarin.core.20.1.0.52.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\syncfusion.xamarin.datasource\\20.1.0.52\\syncfusion.xamarin.datasource.20.1.0.52.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\syncfusion.xamarin.gridcommon\\20.1.0.52\\syncfusion.xamarin.gridcommon.20.1.0.52.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\syncfusion.xamarin.sflistview\\20.1.0.52\\syncfusion.xamarin.sflistview.20.1.0.52.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\zxing.net\\0.16.8\\zxing.net.0.16.8.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2401 to 5.0.0.2196. Reference the package directly from the project to select a different version. \r\n inventory_management.iOS -> inventory_management -> Xamarin.Forms (>= 5.0.0.2401) \r\n inventory_management.iOS -> Xamarin.Forms (>= 5.0.0.2196)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
+}

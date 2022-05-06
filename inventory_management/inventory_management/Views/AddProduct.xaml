@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+                   Title="Add Product" BackgroundColor="White" 
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
+                    x:Class="inventory_management.Views.AddProduct">
+
+    <ContentPage.Content>
+        <StackLayout>
+
+            <BoxView HorizontalOptions="Center"  ></BoxView>
+
+            <Frame BackgroundColor="#40698c" HasShadow="False" Padding="10" Margin="20,0,20,0">
+                <StackLayout Orientation="Vertical" Spacing="5" >
+                    <Label Padding="5" Text="Product Name" FontSize="Medium"  TextColor="White"/>
+                    <Entry x:Name="Name" Text="{Binding Name}"   FontSize="Medium" TextColor="White"
+                          Placeholder="Enter the name here " PlaceholderColor="White" Opacity=".3"      
+                        />
+
+                    <Button Text="Scan barcode" Padding="10" HorizontalOptions="Center" Command="{Binding ScanBarcode}"/>
+                    <Label Text="Barcode:" Padding="10" HorizontalOptions="Center" FontSize="Medium" VerticalOptions="Center" TextColor="White"/>
+                    <Label Text="{Binding BarCode}"  FontSize="Medium" VerticalOptions="Center" HorizontalOptions="Center" TextDecorations="Underline"  TextColor="Black"/>
+                    <Label Text="Price:" HorizontalOptions="Start" FontSize="Medium" VerticalOptions="Center" TextColor="White"/>
+                    <Entry Text="{Binding Price}" Margin="2,2,2,5" FontSize="Medium" 
+                               HorizontalOptions="FillAndExpand" Keyboard="Numeric" TextColor="White"/>
+                    <DatePicker x:Name="txtDOB" Date="{Binding CreatedAt}" BackgroundColor="White" HeightRequest="40" WidthRequest="200" HorizontalOptions="CenterAndExpand"  FontSize="Medium" Margin="10"/>
+                    
+                    
+                </StackLayout>
+                
+            </Frame>
+            <Button x:Name="SubmitButton" Command="{Binding AddProductCommand}"  Text="Save Product" TextColor="Black" FontSize="Medium"   Padding="10" Margin="10" HorizontalOptions="Center" />
+            <Label Text="View All Product" IsVisible="{Binding IsViewAll}" x:Name="ViewLbl" TextColor="Black"  FontSize="Medium" Padding="5" HorizontalOptions="Center" TextDecorations="Underline" >
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding ViewAllProductCommand}" NumberOfTapsRequired="1" />
+                </Label.GestureRecognizers>
+            </Label>
+        </StackLayout>
+            
+    </ContentPage.Content>
+</ContentPage>

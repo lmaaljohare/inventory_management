@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="inventory_management.Views.AddItem"
+             BackgroundColor="White"
+             Title="Add items for Product">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <BoxView HorizontalOptions="Center"  ></BoxView>
+
+            <Frame BackgroundColor="#40698c" HasShadow="False" Padding="10" Margin="20,0,20,0">
+                <StackLayout Orientation="Vertical" Spacing="10">
+
+                    <Label Text="Quantity:"  FontSize="Medium" TextColor="White" />
+                    <Entry Text="{Binding Quantity}" Margin="2,2,2,5" TextColor="white" 
+                   HorizontalOptions="FillAndExpand" Keyboard="Numeric"/>
+                    <DatePicker x:Name="txtDOB" Date="{Binding UpdatedAt}" BackgroundColor="White" HeightRequest="40" WidthRequest="200" HorizontalOptions="CenterAndExpand"  FontAttributes="Italic" FontSize="Medium" Margin="10"/>
+                  
+                    
+                </StackLayout>
+                
+            </Frame>
+        
+            <Button x:Name="SubmitButton" Command="{Binding AddItemsCommand}" Text="Save Product" TextColor="Black" FontSize="Medium"   Padding="10" Margin="10" HorizontalOptions="Center" />
+            <Label Text="View All Product" IsVisible="{Binding IsViewAll}" x:Name="ViewLbl" FontSize="Medium" Padding="5" HorizontalOptions="Center" TextDecorations="Underline">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding ViewAllitemCommand}" NumberOfTapsRequired="1" />
+                </Label.GestureRecognizers>
+            </Label>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
