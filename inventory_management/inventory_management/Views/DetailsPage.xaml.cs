@@ -16,7 +16,7 @@ namespace inventory_management.Views
         public DetailsPage(int selectedProductId)
         {
             InitializeComponent();
-            this.BindingContext = new DetailsViewModel( selectedProductId);
+           // this.BindingContext = new DetailsViewModel( selectedProductId);
         }
     }
 }

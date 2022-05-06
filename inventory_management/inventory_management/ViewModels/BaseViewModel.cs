@@ -11,12 +11,11 @@ namespace inventory_management.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {
+        public History _history;
 
         public Product _product;
         public IProductRepository _productRepository;
-        public AddProducViewModel _addProducView;
-
-        public AddProducViewModel _addProducViewModel;
+        public AddItemViewModel AddItemViewModel = new AddItemViewModel();
 
         public string Name
         {
@@ -33,7 +32,7 @@ namespace inventory_management.ViewModels
             get => _product.BarCode;
             set
             {
-                _product.BarCode = _addProducViewModel.BarCodeReaded;
+                _product.BarCode = value;
                 NotifyPropertyChanged("BarCode");
             }
         }
@@ -49,7 +48,16 @@ namespace inventory_management.ViewModels
                 NotifyPropertyChanged("Date");
             }
         }
-
+        public double TotalQuantity
+        {
+            get => _product.TotalQuantity;
+            set
+            {
+                _product.TotalQuantity = AddItemViewModel.QTySum();
+                //  _product.TotalQuantity =_history.Quantity;
+                NotifyPropertyChanged("TotalQuantity");
+            }
+        }
 
 
         private List<Product> _productList;
@@ -62,6 +70,7 @@ namespace inventory_management.ViewModels
                 NotifyPropertyChanged("ProductList");
             }
         }
+        //   public decimal TotalQuantity => _history.Quantity;
 
         #region INotifyPropertyChanged      
         public event PropertyChangedEventHandler PropertyChanged;

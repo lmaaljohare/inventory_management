@@ -11,12 +11,17 @@
     <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
     <PackageReference Include="SQLiteNetExtensions" Version="2.1.0" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2401" />  
+<<<<<<< HEAD
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />  
+=======
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.2" />  
+>>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad
     <PackageReference Include="ZXing.Net" Version="0.16.8" />  
     <PackageReference Include="ZXing.Net.Mobile" Version="2.4.1" />
   </ItemGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <Reference Include="Mono.Android">
       <HintPath>..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\ReferenceAssemblies\Microsoft\Framework\MonoAndroid\v11.0\Mono.Android.dll</HintPath>
     </Reference>
@@ -35,5 +40,8 @@
     <EmbeddedResource Update="Views\ShowProduct.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+=======
+    <Folder Include="Views\" />
+>>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad
   </ItemGroup>
 </Project>

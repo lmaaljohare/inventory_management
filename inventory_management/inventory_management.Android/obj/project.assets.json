@@ -2409,6 +2409,37 @@
           "Xamarin.Android.Support.v4": "25.4.0.1"
         },
         "compile": {
+<<<<<<< HEAD
+=======
+          "lib/monoandroid50/Xamarin.Google.Guava.ListenableFuture.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid50/Xamarin.Google.Guava.ListenableFuture.dll": {}
+        },
+        "build": {
+          "buildTransitive/monoandroid50/Xamarin.Google.Guava.ListenableFuture.targets": {}
+        }
+      },
+      "ZXing.Net/0.16.8": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/zxing.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/zxing.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "FastAndroidCamera": "2.0.0",
+          "Xamarin.Android.Support.v4": "25.4.0.1"
+        },
+        "compile": {
+>>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad
           "lib/MonoAndroid71/ZXing.Net.Mobile.Core.dll": {},
           "lib/MonoAndroid71/ZXingNetMobile.dll": {},
           "lib/MonoAndroid71/zxing.portable.dll": {}
@@ -5269,11 +5300,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management.Android\\inventory_management.Android.csproj",
       "projectName": "inventory_management.Android",
       "projectPath": "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management.Android\\inventory_management.Android.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management.Android\\obj\\",
+=======
+      "projectUniqueName": "C:\\inventory_management\\inventory_management\\inventory_management.Android\\inventory_management.Android.csproj",
+      "projectName": "inventory_management.Android",
+      "projectPath": "C:\\inventory_management\\inventory_management\\inventory_management.Android\\inventory_management.Android.csproj",
+      "packagesPath": "C:\\Users\\lmaar\\.nuget\\packages\\",
+      "outputPath": "C:\\inventory_management\\inventory_management\\inventory_management.Android\\obj\\",
+>>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -5290,8 +5329,13 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj": {
               "projectPath": "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj"
+=======
+            "C:\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj": {
+              "projectPath": "C:\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj"
+>>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad
             }
           }
         }
@@ -5351,5 +5395,21 @@
         }
       }
     }
+<<<<<<< HEAD
   }
+=======
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.7.2 to 1.7.0. Reference the package directly from the project to select a different version. \r\n inventory_management.Android -> inventory_management -> Xamarin.Essentials (>= 1.7.2) \r\n inventory_management.Android -> Xamarin.Essentials (>= 1.7.0)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "MonoAndroid,Version=v11.0"
+      ]
+    }
+  ]
+>>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad
 }

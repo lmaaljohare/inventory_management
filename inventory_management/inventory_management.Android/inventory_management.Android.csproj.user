@@ -3,8 +3,13 @@
   <PropertyGroup>
     <SelectedDevice>pixel_5_-_api_30</SelectedDevice>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
+<<<<<<< HEAD
     <ActiveDebugProfile>pixel_5_-_api_30</ActiveDebugProfile>
     <DefaultDevice>pixel_5_-_api_30</DefaultDevice>
+=======
+    <ActiveDebugProfile>Samsung SM-J320F</ActiveDebugProfile>
+    <DefaultDevice>phone_xh-dpi_4_7in_-_api_30</DefaultDevice>
+>>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad
     <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>

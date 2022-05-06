@@ -26,12 +26,22 @@ namespace Inventory_management.Data
         public void AddQuantity(History history)
         {
 
+<<<<<<< HEAD
 
             _ = _sqlconnection.Insert(history);
+=======
+            _sqlconnection.Insert(history);
+>>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad
 
         }
 
 
+        public History GetHistoryData(int id)
+        {
+            return _sqlconnection.Table<History>().FirstOrDefault(t => t.IdProduct == id);
+            //   SELECT salesRecord.primaryKey, SUM(SalesRecProdQty) FROM SalesRecord WHERE date(SalesRecDate) BETWEEN date('" +   tbxCDPFrom.Text + "') AND date('" + tbxCDPTo.Text + "')
+
+        }
 
 
     }

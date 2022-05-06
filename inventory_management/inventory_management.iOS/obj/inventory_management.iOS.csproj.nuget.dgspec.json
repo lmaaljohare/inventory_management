@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management.iOS\\inventory_management.iOS.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management.iOS\\inventory_management.iOS.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management.iOS\\obj\\",
+=======
+    "C:\\inventory_management\\inventory_management\\inventory_management.iOS\\inventory_management.iOS.csproj": {}
+  },
+  "projects": {
+    "C:\\inventory_management\\inventory_management\\inventory_management.iOS\\inventory_management.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\inventory_management\\inventory_management\\inventory_management.iOS\\inventory_management.iOS.csproj",
+        "projectName": "inventory_management.iOS",
+        "projectPath": "C:\\inventory_management\\inventory_management\\inventory_management.iOS\\inventory_management.iOS.csproj",
+        "packagesPath": "C:\\Users\\lmaar\\.nuget\\packages\\",
+        "outputPath": "C:\\inventory_management\\inventory_management\\inventory_management.iOS\\obj\\",
+>>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -28,8 +42,13 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj": {
                 "projectPath": "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj"
+=======
+              "C:\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj": {
+                "projectPath": "C:\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj"
+>>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad
               }
             }
           }
@@ -40,11 +59,27 @@
           "dependencies": {
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.7.0, )"
+              "version": "[1.7.2, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
+<<<<<<< HEAD
               "version": "[5.0.0.2196, )"
+=======
+              "version": "[5.0.0.2401, )"
+            },
+            "ZXing.Net": {
+              "target": "Package",
+              "version": "[0.16.8, )"
+            },
+            "ZXing.Net.Mobile": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
+>>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad
             }
           }
         }
@@ -61,6 +96,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -69,6 +105,16 @@
         "projectPath": "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management\\obj\\",
+=======
+    "C:\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj",
+        "projectName": "inventory_management",
+        "projectPath": "C:\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj",
+        "packagesPath": "C:\\Users\\lmaar\\.nuget\\packages\\",
+        "outputPath": "C:\\inventory_management\\inventory_management\\inventory_management\\obj\\",
+>>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -14,7 +14,11 @@ namespace inventory_management.Droid
 {
 	
 	
+<<<<<<< HEAD
 	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "12.1.0.11")]
+=======
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "12.2.0.155")]
+>>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad
 	public partial class Resource
 	{
 		

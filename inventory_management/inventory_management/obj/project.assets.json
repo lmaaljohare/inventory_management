@@ -3671,11 +3671,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj",
       "projectName": "inventory_management",
       "projectPath": "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ASUS\\inventory_management\\inventory_management\\inventory_management\\obj\\",
+=======
+      "projectUniqueName": "C:\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj",
+      "projectName": "inventory_management",
+      "projectPath": "C:\\inventory_management\\inventory_management\\inventory_management\\inventory_management.csproj",
+      "packagesPath": "C:\\Users\\lmaar\\.nuget\\packages\\",
+      "outputPath": "C:\\inventory_management\\inventory_management\\inventory_management\\obj\\",
+>>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",

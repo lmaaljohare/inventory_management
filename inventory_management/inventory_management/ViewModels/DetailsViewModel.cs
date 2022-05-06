@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
-
+/*
 namespace inventory_management.ViewModels
 {
         public class DetailsViewModel : BaseViewModel
@@ -15,11 +15,13 @@ namespace inventory_management.ViewModels
             public ICommand UpdateProductCommand { get; private set; }
             public ICommand DeleteProductCommand { get; private set; }
 
-            public DetailsViewModel( int selectedProductId)
+            public DetailsViewModel( int selectedId)
             {
-               
-              
-                _product = new Product();
+             public History _history;
+        public IHistoryRepository _historyRepository;
+
+
+             _product = new Product();
                 _product.IdProduct = selectedProductId;
                 _productRepository = new ProductRepository();
 
@@ -52,3 +54,4 @@ namespace inventory_management.ViewModels
             }
         }
 
+*/

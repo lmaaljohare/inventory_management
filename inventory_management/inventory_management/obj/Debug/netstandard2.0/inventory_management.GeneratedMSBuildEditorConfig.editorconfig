@@ -1,3 +1,7 @@
 is_global = true
 build_property.RootNamespace = inventory_management
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\ASUS\inventory_management\inventory_management\inventory_management\
+=======
+build_property.ProjectDir = C:\inventory_management\inventory_management\inventory_management\
+>>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad

@@ -10,19 +10,19 @@ using Xamarin.Forms;
 
 namespace inventory_management.ViewModels
 {
-    public  class ShowProductViewModel : BaseViewModel
+    public class ShowProductViewModel : BaseViewModel
     {
 
         public ICommand AddCommand { get; private set; }
-          public ICommand AddItemCommand { get; private set; }
-    
+        public ICommand AddItemCommand { get; private set; }
+
         public ShowProductViewModel()
         {
-            
+
             _productRepository = new ProductRepository();
 
             AddCommand = new Command(async () => await ShowAddProduct());
-            AddItemCommand= new Command(async () => await ShowAddItem());
+            //  AddItemCommand= new Command(async () => await ShowAddItem());
 
             FetchProduct();
         }
@@ -35,22 +35,22 @@ namespace inventory_management.ViewModels
         async Task ShowAddProduct()
         {
             await App.Current.MainPage.Navigation.PushAsync(new AddProduct());
-         
+
         }
-        
-       async Task ShowAddItem()
+
+        async void ShowAddItem()
         {
             await App.Current.MainPage.Navigation.PushAsync(new AddItem());
 
         }
 
-        async void ShowProductDetails(int selectedProductId)
-        {
-            await App.Current.MainPage.Navigation.PushAsync(new DetailsPage(selectedProductId));
-        }
+        //   async void ShowProductDetails(int selectedProductId)
+        //   {
+        //     await App.Current.MainPage.Navigation.PushAsync(new DetailsPage(selectedProductId));
+        // }
 
-         private Product _selectedProductItem;
-        public Product SelectedContactItem
+        private Product _selectedProductItem;
+        public Product SelectedProductItem
         {
             get => _selectedProductItem;
             set
@@ -59,7 +59,7 @@ namespace inventory_management.ViewModels
                 {
                     _selectedProductItem = value;
                     NotifyPropertyChanged("SelectedProdutItem");
-                    ShowProductDetails(value.IdProduct);
+                    ShowAddItem();
                 }
             }
         }

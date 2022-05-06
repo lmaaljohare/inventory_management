@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿C:\Users\ASUS\inventory_management\inventory_management\inventory_management.Android\obj\Debug\110\lp\56\jl\res\anim\enterfromleft.xml
 C:\Users\ASUS\inventory_management\inventory_management\inventory_management.Android\obj\Debug\110\lp\56\jl\res\anim\enterfromright.xml
 C:\Users\ASUS\inventory_management\inventory_management\inventory_management.Android\obj\Debug\110\lp\56\jl\res\anim\exittoleft.xml
@@ -13,3 +14,20 @@ C:\Users\ASUS\inventory_management\inventory_management\inventory_management.And
 C:\Users\ASUS\inventory_management\inventory_management\inventory_management.Android\obj\Debug\110\lp\56\jl\res\values\attrs.xml
 C:\Users\ASUS\inventory_management\inventory_management\inventory_management.Android\obj\Debug\110\lp\56\jl\res\values\strings.xml
 C:\Users\ASUS\inventory_management\inventory_management\inventory_management.Android\obj\Debug\110\lp\56\jl\res\values\styles.xml
+=======
+﻿C:\inventory_management\inventory_management\inventory_management.Android\obj\Debug\110\lp\56\jl\res\anim\enterfromleft.xml
+C:\inventory_management\inventory_management\inventory_management.Android\obj\Debug\110\lp\56\jl\res\anim\enterfromright.xml
+C:\inventory_management\inventory_management\inventory_management.Android\obj\Debug\110\lp\56\jl\res\anim\exittoleft.xml
+C:\inventory_management\inventory_management\inventory_management.Android\obj\Debug\110\lp\56\jl\res\anim\exittoright.xml
+C:\inventory_management\inventory_management\inventory_management.Android\obj\Debug\110\lp\56\jl\res\layout\bottomtablayout.xml
+C:\inventory_management\inventory_management\inventory_management.Android\obj\Debug\110\lp\56\jl\res\layout\fallbacktabbardonotuse.xml
+C:\inventory_management\inventory_management\inventory_management.Android\obj\Debug\110\lp\56\jl\res\layout\fallbacktoolbardonotuse.xml
+C:\inventory_management\inventory_management\inventory_management.Android\obj\Debug\110\lp\56\jl\res\layout\flyoutcontent.xml
+C:\inventory_management\inventory_management\inventory_management.Android\obj\Debug\110\lp\56\jl\res\layout\rootlayout.xml
+C:\inventory_management\inventory_management\inventory_management.Android\obj\Debug\110\lp\56\jl\res\layout\shellcontent.xml
+C:\inventory_management\inventory_management\inventory_management.Android\obj\Debug\110\lp\56\jl\res\layout\tabbar.xml
+C:\inventory_management\inventory_management\inventory_management.Android\obj\Debug\110\lp\56\jl\res\layout\toolbar.xml
+C:\inventory_management\inventory_management\inventory_management.Android\obj\Debug\110\lp\56\jl\res\values\attrs.xml
+C:\inventory_management\inventory_management\inventory_management.Android\obj\Debug\110\lp\56\jl\res\values\strings.xml
+C:\inventory_management\inventory_management\inventory_management.Android\obj\Debug\110\lp\56\jl\res\values\styles.xml
+>>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad

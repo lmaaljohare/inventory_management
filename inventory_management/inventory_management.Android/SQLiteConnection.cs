@@ -19,7 +19,7 @@ namespace Inventory_management.Droid
     {
         public SQLite.SQLiteConnection GetConnection()
         {
-            var filename = "Product.db";
+            var filename = "Product3.db";
             var documentspath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
             var path = Path.Combine(documentspath, filename);
             var connection = new SQLite.SQLiteConnection(path);

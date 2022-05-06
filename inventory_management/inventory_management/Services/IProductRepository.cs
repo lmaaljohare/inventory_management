@@ -5,10 +5,10 @@ using System.Text;
 
 namespace inventory_management.Services
 {
-     public  interface IProductRepository
+    public interface IProductRepository
     {
         List<Product> GetAllProduct();
- 
+
         Product GetProductData(int id);
 
         void DeleteProduct(int id);
@@ -17,4 +17,4 @@ namespace inventory_management.Services
 
         void UpdateProduct(Product product);
     }
-}  
+}

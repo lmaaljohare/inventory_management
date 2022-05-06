@@ -15,17 +15,17 @@ namespace inventory_management.Services
             _productDataBase = new ProductDataBase();
         }
 
-      
+
         public void DeleteProduct(int id)
         {
             _productDataBase.DeleteProduct(id);
-     
+
         }
 
         public List<Product> GetAllProduct()
         {
             return (List<Product>)_productDataBase.GetAllProduct();
-         
+
         }
 
         public Product GetProductData(int id)
@@ -41,7 +41,7 @@ namespace inventory_management.Services
 
         public void UpdateProduct(Product product)
         {
-           _productDataBase.UpdateProduct(product);
+            _productDataBase.UpdateProduct(product);
         }
     }
 }

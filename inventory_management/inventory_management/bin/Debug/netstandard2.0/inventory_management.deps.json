@@ -11,13 +11,21 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "SQLiteNetExtensions": "2.1.0",
+<<<<<<< HEAD
           "Xamarin.Essentials": "1.7.0",
+=======
+          "Xamarin.Essentials": "1.7.2",
+>>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad
           "Xamarin.Forms": "5.0.0.2401",
           "ZXing.Net": "0.16.8",
           "ZXing.Net.Mobile": "2.4.1",
           "sqlite-net": "1.6.292",
+<<<<<<< HEAD
           "sqlite-net-pcl": "1.8.116",
           "Mono.Android": "0.0.0.0"
+=======
+          "sqlite-net-pcl": "1.8.116"
+>>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad
         },
         "runtime": {
           "inventory_management.dll": {}
@@ -566,7 +574,11 @@
           }
         }
       },
+<<<<<<< HEAD
       "Xamarin.Essentials/1.7.0": {
+=======
+      "Xamarin.Essentials/1.7.2": {
+>>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
         },
@@ -617,6 +629,7 @@
           "lib/netstandard1.0/zxing.portable.dll": {
             "assemblyVersion": "0.16.2.0",
             "fileVersion": "0.16.2.0"
+<<<<<<< HEAD
           }
         }
       },
@@ -625,6 +638,8 @@
           "Mono.Android.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
+=======
+>>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad
           }
         }
       }
@@ -972,13 +987,32 @@
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Xamarin.Essentials/1.7.0": {
+=======
+    "Xamarin.Essentials/1.7.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xfUJNxtfMC05VBej7fVUg6Zd9VwM2kqW9LH0tcrSA6IsBTl0EsIGkYUOz1BoKT2rseWW8o3kTi5WH/yZV4GgJw==",
-      "path": "xamarin.essentials/1.7.0",
-      "hashPath": "xamarin.essentials.1.7.0.nupkg.sha512"
+      "sha512": "sha512-3r2QA/54YZGw6o+cBmIQdvs9nkT1SNHHvFGl1jg2bJ/INmsPdSU4ddrwhIw6zSWSIMRbemKvXEVov1KwjRk6PQ==",
+      "path": "xamarin.essentials/1.7.2",
+      "hashPath": "xamarin.essentials.1.7.2.nupkg.sha512"
     },
+    "Xamarin.Forms/5.0.0.2401": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fk/V8QWjeyo8UXcsqsNRMd6o1H5PBfyXYm97nxvhMsJIdeqDgfRWyIsSurM8uLGLQGdQP23R+hHj7vcTSo2UjQ==",
+      "path": "xamarin.forms/5.0.0.2401",
+      "hashPath": "xamarin.forms.5.0.0.2401.nupkg.sha512"
+    },
+    "ZXing.Net/0.16.8": {
+>>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Cbbe+x7I7E+VJ0VxU1fPc7AktIw/9xea/ZY/fh38sXqTQ75LJp9ooGUjpzFqfpPfIKozAoXgJ4yvY4GzKpPBzQ==",
+      "path": "zxing.net/0.16.8",
+      "hashPath": "zxing.net.0.16.8.nupkg.sha512"
+    },
+<<<<<<< HEAD
     "Xamarin.Forms/5.0.0.2401": {
       "type": "package",
       "serviceable": true,
@@ -1004,6 +1038,14 @@
       "type": "reference",
       "serviceable": false,
       "sha512": ""
+=======
+    "ZXing.Net.Mobile/2.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iCL2WcqOyUnC1iFFdzXijk0EXfoLMDqW88MyhoTZigSyhJZM2C5hKgSZVyfx9E35tgkde/IZwHkk8cVDnbQlYg==",
+      "path": "zxing.net.mobile/2.4.1",
+      "hashPath": "zxing.net.mobile.2.4.1.nupkg.sha512"
+>>>>>>> 163a026fb41c3efc8cf790f95b2acc7adbc7f1ad
     }
   }
 }
